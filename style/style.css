@@ -1,0 +1,83 @@
+header{
+ background: rgb(2,1,32);
+ background: linear-gradient(90deg, rgba(2,1,32,1) 2%, rgba(49,48,85,1) 37%, rgba(12,200,238,1) 100%);
+ color: white;
+ text-align: center;
+ padding-top: 10px;
+ border-style: hidden hidden solid hidden;
+ border-color: rebeccapurple;
+ 
+}
+body{
+    background: rgb(2,1,32);
+ background: linear-gradient(90deg, rgba(2,1,32,1) 2%, rgba(49,48,85,1) 37%, rgba(12,200,238,1) 100%);
+ color: white;
+}
+   
+.nav1{
+    margin-top: 20%;
+    padding-left: 10%;
+    font-size: 24px;
+    
+}
+
+.ol-1{
+  margin-top: 3%;
+  padding-left: 5%;
+  font-size: 22px;
+}
+
+.column {
+    float: left;
+    width: 85%;
+    
+    
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 30%;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    border-style: hidden hidden solid hidden;
+    border-color: rainbow;
+}
